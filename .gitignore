@@ -1,0 +1,36 @@
+# Secrets anywhere in the repository; commit only empty examples.
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/.aws/
+**/.ssh/
+**/.kube/
+**/venv/
+**/env/
+**/.cache/
+**/coverage/
+**/.vercel/
+
+# Local dependencies, build output, generated data and tools.
+**/node_modules/
+**/.next*/
+**/out/
+**/*.tsbuildinfo
+**/.venv/
+**/.tools/
+**/.python/
+**/.uv-cache/
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+**/.pytest_cache/
+**/.ruff_cache/
+**/test-results/
+**/artifacts/
+.local-test-cache/
+**/*.log
+.DS_Store
